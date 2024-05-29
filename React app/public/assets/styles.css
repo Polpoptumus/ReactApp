@@ -1,0 +1,137 @@
+.home-container {
+  padding: 0 1.5em;
+}
+
+.home-h1 {
+  font-size: 2.2rem;
+  text-align: center;
+  padding: 1em 0;
+}
+.products h4 {
+  padding: 1em 0 0 0;
+  color: brown;
+  font-weight: 600;
+}
+.home h4 {
+  padding: 1em 0 0 0;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4%;
+  padding: 1em 0;
+}
+
+.img-cont {
+  display: flex;
+}
+.text-cont {
+  display: flex;
+  align-content: space-between;
+  align-items: flex-end;
+  vertical-align: middle;
+}
+.text-cont .grid-p {
+  display: flex;
+  align-content: space-between;
+  align-items: flex-end;
+  vertical-align: middle;
+}
+
+.img-cont img {
+  height: 200px;
+}
+
+.products-h1 {
+  text-align: center;
+  padding: 1em 0;
+  color: brown;
+  font-size: 3em;
+}
+
+.product-container {
+  margin: 2em 0 0 0;
+}
+.product-name {
+  color: brown;
+  padding-bottom: 0.5em;
+}
+
+.contact-section {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-btn {
+  margin: 2em 0 !important;
+}
+.contact-section h3 {
+  padding: 0.5em 0;
+}
+.contact-section p {
+  padding: 0.5em 0;
+}
+
+/* Navbar container */
+nav {
+  background-color: #6883a5;
+  padding: 10px;
+}
+
+/* Navbar list */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* Navbar list item */
+li {
+  margin: 0 10px;
+}
+
+/* Navbar link */
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #f00;
+}
+
+.logo-image {
+  width: 200px;
+  height: 100px;
+}
+
+footer {
+  background-color: #6883a5;
+  padding: 10px;
+}
+
+h1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+/* style the title in vegan to the center */
+.center-text {
+  text-align: center;
+}
+
+.menu-item {
+  margin-right: 1rem;
+  margin-left: 3%;
+}
